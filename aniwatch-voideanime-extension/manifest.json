@@ -1,0 +1,29 @@
+{
+  "id": "aniwatchtv",
+  "name": "AniWatchTV",
+  "icon": "https://aniwatchtv.to/favicon.ico",
+  "description": "AniWatchTV streaming provider for VoidAnime",
+  "manifestURI": "https://raw.githubusercontent.com/Ranajit4321/aniwatchtv-provider/main/manifest.json",
+  "version": "1.0.0",
+  "author": "Ranajit",
+  "type": "onlinestream-provider",
+  "language": "typescript",
+  "lang": "en",
+  "payloadURI": "https://raw.githubusercontent.com/Ranajit4321/aniwatchtv-provider/main/provider.ts",
+
+  "userConfig": {
+    "requiresConfig": false,
+    "version": 1,
+    "fields": [
+      {
+        "name": "domain",
+        "label": "Domain Selection",
+        "type": "select",
+        "default": "https://aniwatchtv.to",
+        "options": [
+          { "label": "aniwatchtv.to", "value": "https://aniwatchtv.to" }
+        ]
+      }
+    ]
+  }
+}
