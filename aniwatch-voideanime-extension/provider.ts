@@ -1,4 +1,4 @@
-/// <reference path="./online-streaming-provider.d.ts" />
+/// <reference path="./aniwatchtv_voidanime.d.ts" />
 
 class Provider {
   baseUrl = "{{domain}}"
